@@ -1,0 +1,10 @@
+a {
+    text-decoration: none;
+    display: flex;
+    color: black;
+    font-size: 30px;
+}
+
+a:hover {
+    color: yellowgreen;
+}
