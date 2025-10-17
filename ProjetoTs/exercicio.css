@@ -1,0 +1,202 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    width: 1900px;
+    background-color: rgb(230, 117, 117);
+    display: flex;
+    justify-content: space-evenly;
+}
+a {
+    margin-top: 90px;
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    transition: 0.5s ease;
+}
+a:hover {
+    color: rgb(212, 71, 71);
+}
+
+.logo {
+    margin: 10px;
+    width: 200px;
+    border-radius: 1000px;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.miseraveis {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    display: block;
+    margin: 10px;
+}
+
+.osmiser {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    margin-left: 785px;
+    margin-bottom: 30px;
+    transition: 1s ease;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px;
+}
+.osmiser:hover {
+    scale: 1.1;
+}
+
+button {
+    margin-left: 850px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(255, 166, 166);
+    width: 180px;
+    height: 30px;
+    border-radius: 30px;
+    transition: width, height, 3s ease;
+    box-shadow: 0px 0px 10px;
+}
+button:hover {
+    background-color: rgb(212, 71, 71);
+    width: 230px;
+    height: 35px;
+}
+.botao {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+
+.PROD {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:800px;
+    height: 630px;
+    border-radius: 30px;
+    background-color: rgb(230, 117, 117);
+    box-shadow: 0px 0px 10px rgb(143, 0, 0);
+    transition: 2s ease;
+}
+.PROD:hover {
+    scale: 1.1;
+    box-shadow: 10px 10px 15px rgb(255, 102, 0);
+    background-color: #7a1111;
+}
+.livros {
+    width: 700px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+
+.LUG {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:800px;
+    height: 630px;
+    border-radius: 30px;
+    background-color: rgb(230, 117, 117);
+    box-shadow: 0px 0px 10px rgb(143, 0, 0);
+    transition: 2s ease;
+}
+.LUG:hover {
+    scale: 1.1;
+    box-shadow: 10px 10px 15px rgb(0, 162, 255);
+    background-color: #7a1111;
+}
+.manhattan {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 700px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+
+
+.FILM {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:800px;
+    height: 630px;
+    border-radius: 30px;
+    background-color: rgb(230, 117, 117);
+    box-shadow: 0px 0px 10px rgb(143, 0, 0);
+    transition: 2s ease;
+}
+.FILM:hover {
+    scale: 1.1;
+    box-shadow: 10px 10px 15px rgb(0, 255, 13);
+    background-color: #7a1111;   
+}
+.filme {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 700px;
+    height: 500px;
+    border-radius: 30px;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease;
+    font-size: 20px;
+}
+p:hover {
+    color: rgb(255, 153, 0);
+}
+
+footer {
+    margin-top: 30px;
+    width: 1900px;
+    background-color: rgb(230, 117, 117);
+    display: flex;
+    justify-content: space-evenly;
+}
+.foter {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.IDEIA {
+    margin-top: 36px;
+    color: black;
+}
+.IDEIA:hover {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
