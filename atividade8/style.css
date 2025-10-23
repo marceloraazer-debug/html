@@ -1,0 +1,126 @@
+.quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: movimento 2s infinite alternate;
+}
+@keyframes movimento {
+    0% {transform: translateX(0);}
+    50% {transform: translateX(100px); background-color: #ff7b00;}
+    100% {transform: translateX(200px); background-color: rgb(255, 251, 0);}
+}
+
+
+
+
+.quadrado2 {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    animation: mov 5s infinite alternate;
+}
+@keyframes mov {
+    0% {background-color: red;}
+    25% {background-color: blue;}
+    50% {background-color: green;}
+    100% {background-color: red;}
+}
+
+
+
+
+button {
+    margin-left: 60px;
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: pink;
+    animation:
+    aumentar 5s infinite alternate,
+    letras 5s infinite alternate,
+    cor 5s infinite alternate;
+}
+@keyframes cor {
+    from {background-color: rgb(255, 147, 46);}
+    to {background-color: rgb(255, 60, 0);}
+}
+@keyframes letras {
+    from {color: rgb(135, 58, 179);}
+    to {color: green;}
+}
+@keyframes aumentar {
+    from {transform: scale(1);}
+    to {transform: scale(1.5);}
+}
+
+
+
+
+p {
+    color: blue;
+    font-size: 30px;
+    animation: mudando 2s infinite alternate;
+}
+@keyframes mudando {
+    50% {color: green;}
+    100% {color: red;}
+}
+
+
+
+
+.sol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 530px;
+    height: 500px;
+    border: 5px, solid black;
+}
+.solimg {
+    width: 300px;
+    animation: andarSol 3s infinite alternate;
+}
+@keyframes andarSol {
+    0% {
+        transform: translateY(-100px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    100% {
+        opacity: 3%;
+        transform: translateY(100px);
+    }
+}
+
+
+.crc {
+    width: 500px;
+    animation: coracaoB 0.6s infinite alternate ;
+}
+@keyframes coracaoB {
+    from {transform: scale(0.8);}
+    to {transform: scale(0.9);}
+}
+
+
+
+
+.flutua {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: black;
+    animation: flutuar 5s infinite alternate;
+}
+@keyframes flutuar {
+    0% {
+        transform: translateY(-50px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(50px);
+    }
+}
