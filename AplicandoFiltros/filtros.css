@@ -24,6 +24,7 @@ img {
     filter: invert(100%);
     scale: 1;
 }
+
 .img3:hover {
     filter: blur(5px);
     transform: scale(1.2);
@@ -33,7 +34,8 @@ img {
     filter: blur(4px);
     scale: 1;
 }
-.img4:hover{
+
+.img4:hover {
     filter: grayscale(100%);
     transform: scale(1.2);
 }
@@ -60,8 +62,8 @@ img {
     gap: 2px;
 
     grid-template-areas:
-    "filme1 filme2 filme3"
-    "filme4 filme5";
+        "filme1 filme2 filme3"
+        "filme4 filme5";
 }
 
 .filme1 {
@@ -69,6 +71,7 @@ img {
     height: 400px;
     filter: blur(4px) grayscale(100%);
 }
+
 .filme1:hover {
     filter: none;
 }
@@ -78,6 +81,7 @@ img {
     height: 400px;
     filter: blur(4px) grayscale(100%);
 }
+
 .filme2:hover {
     filter: none;
 }
@@ -87,6 +91,7 @@ img {
     height: 400px;
     filter: blur(4px) grayscale(100%);
 }
+
 .filme3:hover {
     filter: none;
 }
@@ -96,6 +101,7 @@ img {
     height: 400px;
     filter: blur(4px) grayscale(100%);
 }
+
 .filme4:hover {
     filter: none;
 }
@@ -105,6 +111,7 @@ img {
     height: 400px;
     filter: blur(4px) grayscale(100%);
 }
+
 .filme5:hover {
     filter: none;
 }
