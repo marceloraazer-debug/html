@@ -1,0 +1,118 @@
+.imgs {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img {
+    width: 300px;
+    height: 220px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.img1 {
+    filter: grayscale(100%);
+}
+
+.img2 {
+    filter: sepia(100%);
+}
+
+.img3 {
+    filter: invert(100%);
+    scale: 1;
+}
+.img3:hover {
+    filter: blur(5px);
+    transform: scale(1.2);
+}
+
+.img4 {
+    filter: blur(4px);
+    scale: 1;
+}
+.img4:hover{
+    filter: grayscale(100%);
+    transform: scale(1.2);
+}
+
+.img5 {
+    filter: brightness(150%);
+}
+
+.img6 {
+    filter: contrast(200%);
+}
+
+/* ---------------------------------------------------------------------- */
+
+.filmes {
+    display: grid;
+
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 25% 25% 25% 25%;
+
+    margin: 50px;
+
+    height: 270vh;
+    gap: 2px;
+
+    grid-template-areas:
+    "filme1 filme2 filme3"
+    "filme4 filme5";
+}
+
+.filme1 {
+    width: 280px;
+    height: 400px;
+    filter: blur(4px) grayscale(100%);
+}
+.filme1:hover {
+    filter: none;
+}
+
+.filme2 {
+    width: 280px;
+    height: 400px;
+    filter: blur(4px) grayscale(100%);
+}
+.filme2:hover {
+    filter: none;
+}
+
+.filme3 {
+    width: 280px;
+    height: 400px;
+    filter: blur(4px) grayscale(100%);
+}
+.filme3:hover {
+    filter: none;
+}
+
+.filme4 {
+    width: 280px;
+    height: 400px;
+    filter: blur(4px) grayscale(100%);
+}
+.filme4:hover {
+    filter: none;
+}
+
+.filme5 {
+    width: 280px;
+    height: 400px;
+    filter: blur(4px) grayscale(100%);
+}
+.filme5:hover {
+    filter: none;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
